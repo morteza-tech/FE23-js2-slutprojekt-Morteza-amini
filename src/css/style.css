@@ -1,0 +1,320 @@
+* {
+  color: #f1faf8;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #001b16;
+  padding-bottom: 100px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html {
+  overscroll-behavior: none;
+  margin-top: 80px;
+}
+
+/* Start header CSS */
+
+header {
+  display: flex;
+  background-color: #01443a;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  background-color: #80a38b;
+  border-radius: 24px;
+  display: flex;
+  margin-right: 300px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: #01443a;
+  text-decoration: none;
+}
+
+nav ul li:active {
+  background-color: #80a38b;
+  color: #01443a;
+}
+
+nav ul li:hover {
+  border-radius: 24px;
+  background-color: #18463b;
+  cursor: pointer;
+}
+
+nav ul li:hover a {
+  border-radius: 24px;
+  color: #41444b;
+  background-color: #18463b;
+
+}
+
+nav button {
+  height: 40px;
+  padding: 10px;
+}
+
+nav img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header #logo {
+  height: 50px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#log-out-button {
+  background-color: #80a38b;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+#logged-in-profile-pic {
+  width: 60px;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+#logged-in-username {
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+/* End header CSS */
+
+/* Start footer CSS */
+
+footer {
+  font-size: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #01443a;
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+}
+
+footer img {
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* End footer CSS */
+
+/* Start log in CSS */
+#log-in-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#log-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toggle-pages {
+  color: #23a79c;
+}
+
+.toggle-pages:hover {
+  color: #01443a;
+  cursor: pointer;
+}
+
+.front-pages-button {
+  border-radius: 24px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* End log in CSS */
+
+/* Start register CSS */
+
+#register-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#register-form {
+  width: 900px;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile-images-div img {
+  width: 220px;
+}
+
+.circle {
+  border-radius: 24%;
+}
+
+.user-choice {
+  width: 220px;
+  border: #3ba299 outset 10px;
+}
+
+/* End register CSS */
+
+/* Start maincontainer CSS */
+#main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* End maincontainer CSS */
+
+/* Start homepage CSS */
+
+#welcome-div {
+  margin-top: 40px;
+  background-color: #01443a;
+  width: 400px;
+  border-radius: 24px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* End homepage CSS */
+
+/* Start profilepage CSS */
+
+#profile-page {
+  margin-left: 125px;
+  margin-top: 38px;
+}
+
+#profile-page-profile-picture {
+  width: 150px;
+  background-color: lightgrey;
+}
+
+#delete-button {
+  background-color: #80a38b;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 24px;
+  height: 50px;
+  width: 140px;
+}
+
+/* End profilepage CSS */
+
+/* Start aside CSS */
+
+aside {
+  margin-right: 25px;
+  margin-top: 38px;
+  background-color: #01443a;
+  padding: 12px;
+  border-radius: 24px;
+  width: 15%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.users {
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px;
+}
+
+.users:hover {
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #7fa28a;
+  text-align: center;
+}
+
+/* End aside CSS */
+
+/* Start Forums CSS */
+
+.forum-container {
+  background-color: #01443a;
+  border-radius: 16px;
+  padding: 14px;
+  margin-top: 10px;
+  width: 950px;
+
+}
+
+/* End Forums CSS */
+
+/* Start delete comment Css */
+
+.deleteTrashCanButtonForComments {
+  width: 20px;
+  margin-left: 97%;
+  cursor: pointer;
+}
+
+
+/* End delete comment Css */
+
+
+/* Start user comments placeholder Css */
+#user-comments {
+  padding: 10px;
+  margin-top: 10px;
+  width: 950px;
+}
+
+
+/* End user comments placeholder Css */
+
+/* Start error */
+
+.centerText {
+  text-align: center;
+}
+
+/* End error */
